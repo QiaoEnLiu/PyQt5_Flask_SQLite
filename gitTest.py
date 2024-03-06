@@ -1,1 +1,1 @@
-print('Git Success')
+print('New Git Success')
