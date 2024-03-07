@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def init_db():
     conn = sqlite3.connect(sql_path)
-    cursor = conn.cursor()
+    # cursor = conn.cursor()
     # cursor.execute('''
     #     CREATE TABLE IF NOT EXISTS users (
     #         id INTEGER PRIMARY KEY AUTOINCREMENT,
